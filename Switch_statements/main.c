@@ -10,23 +10,29 @@
 
 void check_grade(char grade){
     switch(grade){
-        case 'A': printf("\nYou got 80-89%.\n");
-        break;
+        case 'A':
+             printf("\nYou got 80-89%.\n");
+             break;
 
-        case 'B': printf("\nYou got 70-79%.\n");
-        break;
+        case 'B':
+            printf("\nYou got 70-79%.\n");
+            break;
 
-        case 'C': printf("\nYou got 60-69%.\n");
-        break;
+        case 'C':
+            printf("\nYou got 60-69%.\n");
+            break;
 
-        case 'D': printf("\nYou got 50-59%.\n.");
-        break;
+        case 'D':
+            printf("\nYou got 50-59%.\n.");
+            break;
 
-        case 'E': printf("\nYou failed horribly!!!");
-        break;
+        case 'E':
+            printf("\nYou failed horribly!!!");
+            break;
 
-        default: printf("\nYou probably didn\'t enter a valid grade.\n");
-        break;
+        default:
+            printf("\nYou probably didn\'t enter a valid grade.\n");
+            break;
     }
 }
 
